@@ -50,7 +50,7 @@ $(document).ready(function () {
 
     function renderPlans() {
         for (var i = 0; i <= 12; i++) {
-            $
+            $("#" + i + "Row").val(localStorage.getItem(i));
         }
     }
-})
+});
