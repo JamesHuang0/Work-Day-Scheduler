@@ -7,6 +7,8 @@ local time of the device and display that time. Each row has an hour block in wh
 if it is that current hour, or if the hour has not passed yet. Gray for hour rows in the past, red for the current hour row, and green for future hour rows. 
 This is done by pulling the Moment.js hour, parsing it into and integer and comparing it with the assigned parsed hour for each hour row.
 
+## Demo
+
 [Link](https://JamesHuang0.github.io/Work-Day-Scheduler/) to the live application.
 
 ![Screenshot](https://github.com/mrxanthic/Work-Day-Scheduler/blob/main/assets/c5screenshot.PNG)
